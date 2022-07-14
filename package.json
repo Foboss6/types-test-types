@@ -1,0 +1,37 @@
+{
+    "name": "@types/test-types-foboss",
+    "version": "0.0.1",
+    "description": "Test types package",
+    "private": false,
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "test": "exit 0",
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Foboss6/types-test-types.git"
+    },
+    "author": "Foboss",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Foboss6/types-test-types/issues"
+    },
+    "homepage": "https://github.com/Foboss6/types-test-types#readme",
+    "devDependencies": {
+        "@nestjs/swagger": "^6.0.4",
+        "@rollup/plugin-commonjs": "^22.0.1",
+        "@rollup/plugin-json": "^4.1.0",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@rollup/plugin-typescript": "^8.3.3",
+        "rollup": "^2.75.7",
+        "rollup-plugin-dts": "^4.2.2",
+        "rollup-plugin-terser": "^7.0.2",
+        "tslib": "^2.4.0",
+        "typescript": "^4.7.4"
+    }
+}

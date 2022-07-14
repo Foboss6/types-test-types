@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noUncheckedIndexedAccess": true,
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": "./"
+  }
+}
